@@ -95,9 +95,9 @@ $(function() {
 });
 
     $(function() {
-	 
-	 'use strict';
-	 
+     
+     'use strict';
+     
         var data1 = [];
         var totalPoints = 300;
         function GetData() {
@@ -154,9 +154,9 @@ $(function() {
     });
 
     $(function() {
-	
-	'use strict';
-	
+    
+    'use strict';
+    
         var data = [{
             label: "Paid Signup",
             data: 60
@@ -190,10 +190,10 @@ $(function() {
     });
 
     $(function() {
-	
-	
-	'use strict';
-	
+    
+    
+    'use strict';
+    
         var data = [{
             label: "Premium Member",
             data: 40
@@ -232,9 +232,9 @@ $(function() {
     });
 
     $(function() {
-	
-	'use strict';
-	
+    
+    'use strict';
+    
         var data24Hours = [
             [0, 601],
             [1, 520],
@@ -395,9 +395,9 @@ $(function() {
     });
 
     $(function() {
-	
-	
-	
+    
+    
+    
         var data1 = GenerateSeries(0);
         var data2 = GenerateSeries(100);
         var data3 = GenerateSeries(200);
@@ -426,7 +426,7 @@ $(function() {
                 borderWidth: 1,
                 borderColor: "#eeeeee"
             },
-			 colors: ["#81d7f0", "#24a1c5", "#0a6681"],
+             colors: ["#81d7f0", "#24a1c5", "#0a6681"],
             legend: {
                 position: 'nw',
                 labelBoxBorderColor: "#000000",

@@ -6,8 +6,8 @@ var FormDropzone = function () {
         init: function () {  
 
             Dropzone.options.myDropzone = {
-		
-	
+        
+    
                 init: function() {
                     this.on("addedfile", function(file) {
                         // Create the remove button

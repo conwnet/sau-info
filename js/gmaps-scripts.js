@@ -8,7 +8,7 @@ var GoogleMaps = function () {
             div: '#gmap_basic',
             lat: 37.369523,
             lng: -122.039725
-			
+            
         });
     }
     var mapMarker = function () {
@@ -16,7 +16,7 @@ var GoogleMaps = function () {
             div: '#gmap_marker',
             lat: -12.043333,
             lng: -77.028333
-			
+            
 
         });
         map.addMarker({

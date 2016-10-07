@@ -112,8 +112,8 @@ return'yyyy-mm-dd hh:ii';else
 return'yyyy-mm-dd hh:ii:ss';}else if(type=="php"){if(field=='input')
 return'Y-m-d H:i';else
 return'Y-m-d H:i:s';}else{throw new Error("Invalid format type.");}},validParts:function(type){if(type=="standard"){return/hh?|HH?|p|P|ii?|ss?|dd?|DD?|mm?|MM?|yy(?:yy)?/g;
-			} else if (type == "php") {
-				return /[dDjlNwzFmMnStyYaABgGhHis]/g;}else{throw new Error("Invalid format type.");}},nonpunctuation:/[^ -\/:-@\[-`{-~\t\n\rTZ]+/g,parseFormat:function(format,type){var separators=format.replace(this.validParts(type),'\0').split('\0'),parts=format.match(this.validParts(type));if(!separators||!separators.length||!parts||parts.length==0){throw new Error("Invalid date format.");}
+            } else if (type == "php") {
+                return /[dDjlNwzFmMnStyYaABgGhHis]/g;}else{throw new Error("Invalid format type.");}},nonpunctuation:/[^ -\/:-@\[-`{-~\t\n\rTZ]+/g,parseFormat:function(format,type){var separators=format.replace(this.validParts(type),'\0').split('\0'),parts=format.match(this.validParts(type));if(!separators||!separators.length||!parts||parts.length==0){throw new Error("Invalid date format.");}
 return{separators:separators,parts:parts};},parseDate:function(date,format,language,type){if(date instanceof Date){var dateUTC=new Date(date.valueOf()- date.getTimezoneOffset()*60000);dateUTC.setMilliseconds(0);return dateUTC;}
 if(/^\d{4}\-\d{1,2}\-\d{1,2}$/.test(date)){format=this.parseFormat('yyyy-mm-dd',type);}
 if(/^\d{4}\-\d{1,2}\-\d{1,2}[T ]\d{1,2}\:\d{1,2}$/.test(date)){format=this.parseFormat('yyyy-mm-dd hh:ii',type);}

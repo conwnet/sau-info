@@ -4,11 +4,11 @@
 
 [Gallery Stylesheet]
 
-Project:	OLIVE ADMIN
-Version:	1.1
-Last change:	[INITIAL RELEASE]
-Assigned to:	Olive Enterprise (Surat,IN)
-Primary use:	Admin Side Used Template. 
+Project:    OLIVE ADMIN
+Version:    1.1
+Last change:    [INITIAL RELEASE]
+Assigned to:    Olive Enterprise (Surat,IN)
+Primary use:    Admin Side Used Template. 
 -------------------------------------------------------------------*/
 
 
@@ -40,8 +40,8 @@ Primary use:	Admin Side Used Template.
     width: 100%;
     display: block;
     position: relative;
-	border-radius:10px;
-	border:3px solid #5bbad6;
+    border-radius:10px;
+    border:3px solid #5bbad6;
 }
 
 .grid figcaption {
@@ -165,8 +165,8 @@ Primary use:	Admin Side Used Template.
     -webkit-transition: -webkit-transform 0.4s,opacity 0.1s 0.3s;
     -moz-transition: -moz-transform 0.4s,opacity 0.1s 0.3s;
     transition: transform 0.4s,opacity 0.1s 0.3s;
-	border-radius:10px;
-	
+    border-radius:10px;
+    
 }
 
 .no-touch .cs-style-3 figure:hover figcaption,.cs-style-3 figure.cs-hover figcaption {

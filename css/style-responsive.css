@@ -4,11 +4,11 @@
 
 [Master Stylesheet For Mobile Screen]
 
-Project:	OLIVE ADMIN
-Version:	1.1
-Last change:	[INITIAL RELEASE]
-Assigned to:	Olive Enterprise (Surat,IN)
-Primary use:	Admin Side Used Template. 
+Project:    OLIVE ADMIN
+Version:    1.1
+Last change:    [INITIAL RELEASE]
+Assigned to:    Olive Enterprise (Surat,IN)
+Primary use:    Admin Side Used Template. 
 -------------------------------------------------------------------*/
 
 
@@ -363,14 +363,14 @@ Primary use:	Admin Side Used Template.
 
   .notify-row, .search, .dont-show , .inbox-head .sr-input, .inbox-head .sr-btn, .language {
         display: none !important;
-		}
+        }
 
 @media (max-width: 480px) {
 
     .notify-row, .search, .dont-show , .inbox-head .sr-input, .inbox-head .sr-btn, .language{
         display: none !important;
     }
-	
+    
 
 
  }
@@ -582,75 +582,75 @@ Primary use:	Admin Side Used Template.
 }
 
 @media (max-width: 600px){
-	/**-------------------------------------------SOCIAL APPS-------------------------------------------**/ul.timeline li.centering-line{
-		left: 15px;
-		margin-left: 0px;
-	}
+    /**-------------------------------------------SOCIAL APPS-------------------------------------------**/ul.timeline li.centering-line{
+        left: 15px;
+        margin-left: 0px;
+    }
 
-	ul.timeline li.item-timeline{
-		width: 100%;
-	}
+    ul.timeline li.item-timeline{
+        width: 100%;
+    }
 
-	ul.timeline li:nth-child(even).item-timeline{
-		float: left;
-		clear: left;
-	}
+    ul.timeline li:nth-child(even).item-timeline{
+        float: left;
+        clear: left;
+    }
 
-	ul.timeline li:nth-child(odd).item-timeline{
-		float: left;
-		clear: left;
-	}
+    ul.timeline li:nth-child(odd).item-timeline{
+        float: left;
+        clear: left;
+    }
 
-	ul.timeline li:nth-child(odd).item-timeline.highlight,ul.timeline li:nth-child(odd).item-timeline.highlight{
-		float: left;
-		clear: left;
-	}
+    ul.timeline li:nth-child(odd).item-timeline.highlight,ul.timeline li:nth-child(odd).item-timeline.highlight{
+        float: left;
+        clear: left;
+    }
 
-	ul.timeline li.item-timeline .inner-content{
-		margin: 10px;
-		margin-left: 35px;
-	}
+    ul.timeline li.item-timeline .inner-content{
+        margin: 10px;
+        margin-left: 35px;
+    }
 
-	ul.timeline li:nth-child(even).item-timeline.highlight .buletan,ul.timeline li:nth-child(odd).item-timeline.highlight .buletan,ul.timeline li:nth-child(even).item-timeline .buletan,ul.timeline li:nth-child(odd).item-timeline .buletan{
-		left: 11px;
-		top: 35px;
-		margin-left: 0;
-	}
+    ul.timeline li:nth-child(even).item-timeline.highlight .buletan,ul.timeline li:nth-child(odd).item-timeline.highlight .buletan,ul.timeline li:nth-child(even).item-timeline .buletan,ul.timeline li:nth-child(odd).item-timeline .buletan{
+        left: 11px;
+        top: 35px;
+        margin-left: 0;
+    }
 
-	ul.timeline li.item-timeline:nth-child(even):before{
-		top: 29px;
-		right: auto;
-		left: 25px;
-		border-left: 0px solid #fff;
-		border-right: 12px solid #fff;
-		border-right-color: #fff;
-	}
+    ul.timeline li.item-timeline:nth-child(even):before{
+        top: 29px;
+        right: auto;
+        left: 25px;
+        border-left: 0px solid #fff;
+        border-right: 12px solid #fff;
+        border-right-color: #fff;
+    }
 
-	ul.timeline li.item-timeline:nth-child(odd).highlight:before,ul.timeline li.item-timeline:nth-child(even).highlight:before,ul.timeline li.item-timeline:nth-child(odd):before{
-		top: 29px;
-		left: 25px;
-		display: inline-block;
-		border-top: 12px solid transparent;
-		border-right: 12px solid #fff;
-		border-bottom: 12px solid transparent;
-		border-right-color: #fff;
-		content: '';
-	}
+    ul.timeline li.item-timeline:nth-child(odd).highlight:before,ul.timeline li.item-timeline:nth-child(even).highlight:before,ul.timeline li.item-timeline:nth-child(odd):before{
+        top: 29px;
+        left: 25px;
+        display: inline-block;
+        border-top: 12px solid transparent;
+        border-right: 12px solid #fff;
+        border-bottom: 12px solid transparent;
+        border-right-color: #fff;
+        content: '';
+    }
 
-	ul.timeline li.center-timeline-cat .inner{
-		border-radius: 0 5px 5px 0;
-		margin: 20px 0 20px 19px;
-	}
+    ul.timeline li.center-timeline-cat .inner{
+        border-radius: 0 5px 5px 0;
+        margin: 20px 0 20px 19px;
+    }
 
-	ul.timeline li:first-child.center-timeline-cat .inner,ul.timeline li:last-child.center-timeline-cat .inner{
-		margin: 20px 0 20px 19px;
-	}
+    ul.timeline li:first-child.center-timeline-cat .inner,ul.timeline li:last-child.center-timeline-cat .inner{
+        margin: 20px 0 20px 19px;
+    }
 
-	.featured-post-wide .featured-text{
-		position: relative;
-		width: 100%;
-		padding: 5px 15px 15px 15px;
-	}
+    .featured-post-wide .featured-text{
+        position: relative;
+        width: 100%;
+        padding: 5px 15px 15px 15px;
+    }
 
 }
 

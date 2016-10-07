@@ -6560,7 +6560,7 @@ img {
 }
 .img-square {
     border-radius: 15px !important;
-	border:2px solid #298fac;
+    border:2px solid #298fac;
 }
 hr {
     margin-top: 20px;
@@ -6637,7 +6637,7 @@ h6,.h6 {
 
 p {
     margin: 0 0 10px;
-	
+    
 }
 
 .lead {
@@ -9985,11 +9985,11 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .nav>li>a>img {
     max-width: none;
-	border-radius:4px;
+    border-radius:4px;
 }
 .nav>li>a.flag>img {
     max-width: none;
-	border-radius: 1px;
+    border-radius: 1px;
 }
 
 .nav-tabs {
@@ -10089,7 +10089,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .nav-stacked>li {
     float: none;
-	
+    
 }
 
 .nav-stacked>li+li {
@@ -10690,14 +10690,14 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .breadcrumb>li {
     display: inline-block;
-	
+    
 }
 .breadcrumb>li  a{
     color:#586573;
 }
 
 .breadcrumb>li+li:before {
-	content: "\f101";
+    content: "\f101";
     
     color: #ccc;
 }
@@ -11493,7 +11493,7 @@ a.list-group-item-danger.active,a.list-group-item-danger.active:hover,a.list-gro
 }
 .panel-body {
     padding: 15px;
-	
+    
 }
 
 .panel>.list-group {

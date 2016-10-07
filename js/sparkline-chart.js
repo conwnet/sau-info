@@ -1,5 +1,5 @@
 var Script = function () {
-	$(".sparkline").each(function () {
+    $(".sparkline").each(function () {
         var $data = $(this).data();
         $data.valueSpots = {
             '0:': $data.spotColor
@@ -9,7 +9,7 @@ var Script = function () {
         });
     });
     $("#designchart").sparkline([6, 9, 8, 7, 6, 8], {
-	
+    
         type: 'bar',
         height: '65',
         barWidth: 40,
@@ -72,21 +72,21 @@ var Script = function () {
         barSpacing: 2,
         barColor: '#41cac0'
     });
-	$("#work-progress6").sparkline([6, 8, 5, 7, 6, 8, 9], {
+    $("#work-progress6").sparkline([6, 8, 5, 7, 6, 8, 9], {
         type: 'bar',
         height: '30',
         barWidth: 8,
         barSpacing: 2,
         barColor: '#31f74d'
     });
-	$("#work-progress7").sparkline([6, 8, 5, 7, 6, 8, 9], {
+    $("#work-progress7").sparkline([6, 8, 5, 7, 6, 8, 9], {
         type: 'bar',
         height: '30',
         barWidth: 8,
         barSpacing: 2,
         barColor: '#fccb48'
     });
-	$("#work-progress8").sparkline([6, 8, 5, 7, 6, 8, 9], {
+    $("#work-progress8").sparkline([6, 8, 5, 7, 6, 8, 9], {
         type: 'bar',
         height: '30',
         barWidth: 8,
